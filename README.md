@@ -15,11 +15,11 @@
 |  | ![SEN0440_IMG] | DFrobot SEN0440 | MEMS Gassensor - MiCS-5524  | x |
 |  | ![SEN0394_IMG] | DFrobot SEN0394 | SGP40 Luchtkwaliteitssensor | x |
 
-[SEN0487_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003985/dfrobot-fermion-mems-microphone-module-600x600.jpg
-[DFR0026_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products_2022/dfrobot-gravity-analog-ambient-light-sensor-1-6000lx-600x600.jpg
-[SEN0137_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003935/dfrobot-gravity-dht22-temperature-and-humidity-sensor-with-cable-front-600x600.jpg
-[SEN0440_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003991/dfrobot-fermion-mems-gas-sensor-mics-5524-600x600.jpg
-[SEN0394_IMG]: [https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003991/dfrobot-fermion-mems-gas-sensor-mics-5524-600x600.jpg](https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003995/dfrobot-gravity-sgp40-air-quality-sensor-600x600.jpg)
+[SEN0487_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003985/dfrobot-fermion-mems-microphone-module-200x200.jpg
+[DFR0026_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products_2022/dfrobot-gravity-analog-ambient-light-sensor-1-6000lx-200x200.jpg
+[SEN0137_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003935/dfrobot-gravity-dht22-temperature-and-humidity-sensor-with-cable-front-200x200.jpg
+[SEN0440_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003991/dfrobot-fermion-mems-gas-sensor-mics-5524-200x200.jpg
+[SEN0394_IMG]: [https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003991/dfrobot-fermion-mems-gas-sensor-mics-5524-200x200.jpg](https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003995/dfrobot-gravity-sgp40-air-quality-sensor-200x200.jpg)
 
 ## Platform list
 
