@@ -31,7 +31,7 @@
 
 ### MEMS Microphone
 
-https://wiki.dfrobot.com/Fermion_MEMS_Microphone_Sensor_SKU_SEN048
+https://wiki.dfrobot.com/Fermion_MEMS_Microphone_Sensor_SKU_SEN0487
 
 ### Ambient Light Sensor
 
