@@ -14,12 +14,15 @@
 | DST1 | ![SEN0137_IMG] | DFrobot SEN0137 | [DHT22 Digital temperature and humidity sensor](#digital-temperature-and-humidity-sensor) | x |
 |  | ![SEN0440_IMG] | DFrobot SEN0440 | MEMS Gassensor - MiCS-5524  | x |
 |  | ![SEN0394_IMG] | DFrobot SEN0394 | SGP40 air quality sensor | x |
+|  | ![AS7341_IMG] | DFrobot SEN0394 | 11-Channel color sensor | x |
+|  | <img src="https://files.seeedstudio.com/wiki/Grove-Multichannel_Gas_Sensor/img/Grove-Multichannel_Gas_Sensor_V2_101020820/IMG/04.png" width="200"> | Grove - Multichannel Gas Sensor V2 | Gas Sensor | x |
 
 [SEN0487_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003985/dfrobot-fermion-mems-microphone-module-200x200.jpg
 [DFR0026_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products_2022/dfrobot-gravity-analog-ambient-light-sensor-1-6000lx-200x200.jpg
 [SEN0137_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003935/dfrobot-gravity-dht22-temperature-and-humidity-sensor-with-cable-front-200x200.jpg
 [SEN0440_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003991/dfrobot-fermion-mems-gas-sensor-mics-5524-200x200.jpg
 [SEN0394_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003995/dfrobot-gravity-sgp40-air-quality-sensor-200x200.jpg
+[AS7341_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-004002/dfrobot-gravity-as7341-11-channel-visible-light-sensor-back-200x200.jpg 
 
 ## Platform list
 
@@ -27,7 +30,7 @@
 | --- | --- | --- | --- | --- | --- |
 | ASM1 | ![ESP32_IMG] | ESP32 WiFi en Bluetooth Board  | ESP32 | x |  |
 
-[ESP32_IMG]: https://www.tinytronics.nl/shop/image/cache/data/product-1443/esp32%20cp2102%20dev%20board%20v1%201-1200x1200.jpg-600x600.jpg
+[ESP32_IMG]: https://www.tinytronics.nl/shop/image/cache/data/product-1443/esp32%20cp2102%20dev%20board%20v1%201-200x200.jpg
 
 ## Sensors
 
