@@ -19,7 +19,7 @@
 [DFR0026_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products_2022/dfrobot-gravity-analog-ambient-light-sensor-1-6000lx-200x200.jpg
 [SEN0137_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003935/dfrobot-gravity-dht22-temperature-and-humidity-sensor-with-cable-front-200x200.jpg
 [SEN0440_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003991/dfrobot-fermion-mems-gas-sensor-mics-5524-200x200.jpg
-[SEN0394_IMG]: (https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003995/dfrobot-gravity-sgp40-air-quality-sensor-200x200.jpg)
+[SEN0394_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003995/dfrobot-gravity-sgp40-air-quality-sensor-200x200.jpg
 
 ## Platform list
 
