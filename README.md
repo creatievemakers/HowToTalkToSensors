@@ -10,7 +10,7 @@
 | Type | --- | Sensor | Description | Amount | Metrics |
 | --- | --- | --- | --- | --- | --- |
 | 0 | ![SEN0394_IMG] | DFrobot SEN0394 | SGP40 air quality sensor | x | 0: Air Quality index (int) |
-| ASM1 | ![SEN0487_IMG] | DFrobot SEN0487 | [MEMS Microphone](#mems-microphone) | x | x |
+| 1 | ![SEN0487_IMG] | DFrobot SEN0487 | [MEMS Microphone](#mems-microphone) | x | 0: Sound Intensity (0-4096) |
 | ASL1 |![DFR0026_IMG] | DFrobot DFR0026 | [Light Sensor](#ambient-light-sensor) | x | x |
 | DST1 | ![SEN0137_IMG] | DFrobot SEN0137 | [DHT22 Digital temperature and humidity sensor](#digital-temperature-and-humidity-sensor) | x | x |
 |  | ![SEN0440_IMG] | DFrobot SEN0440 | MEMS Gassensor - MiCS-5524  | x | x |
