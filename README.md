@@ -7,15 +7,15 @@
 
 ## Sensor list
 
-| Prefifx-ID | --- | Sensor | Description | Amount |
-| --- | --- | --- | --- | --- |
-| ASM1 | ![SEN0487_IMG] | DFrobot SEN0487 | [MEMS Microphone](#mems-microphone) | x |
-| ASL1 |![DFR0026_IMG] | DFrobot DFR0026 | [Light Sensor](#ambient-light-sensor) | x |
-| DST1 | ![SEN0137_IMG] | DFrobot SEN0137 | [DHT22 Digital temperature and humidity sensor](#digital-temperature-and-humidity-sensor) | x |
-|  | ![SEN0440_IMG] | DFrobot SEN0440 | MEMS Gassensor - MiCS-5524  | x |
-|  | ![SEN0394_IMG] | DFrobot SEN0394 | SGP40 air quality sensor | x |
-|  | ![AS7341_IMG] | DFrobot SEN0394 | 11-Channel color sensor | x |
-|  | <img src="https://files.seeedstudio.com/wiki/Grove-Multichannel_Gas_Sensor/img/Grove-Multichannel_Gas_Sensor_V2_101020820/IMG/04.png" width="200"> | Grove - Multichannel Gas Sensor V2 | Gas Sensor | x |
+| Type | --- | Sensor | Description | Amount | Metrics |
+| --- | --- | --- | --- | --- | --- |
+| 0 | ![SEN0394_IMG] | DFrobot SEN0394 | SGP40 air quality sensor | x | 0: Air Quality index (int) |
+| ASM1 | ![SEN0487_IMG] | DFrobot SEN0487 | [MEMS Microphone](#mems-microphone) | x | x |
+| ASL1 |![DFR0026_IMG] | DFrobot DFR0026 | [Light Sensor](#ambient-light-sensor) | x | x |
+| DST1 | ![SEN0137_IMG] | DFrobot SEN0137 | [DHT22 Digital temperature and humidity sensor](#digital-temperature-and-humidity-sensor) | x | x |
+|  | ![SEN0440_IMG] | DFrobot SEN0440 | MEMS Gassensor - MiCS-5524  | x | x |
+|  | ![AS7341_IMG] | DFrobot SEN0394 | 11-Channel color sensor | x | x |
+|  | <img src="https://files.seeedstudio.com/wiki/Grove-Multichannel_Gas_Sensor/img/Grove-Multichannel_Gas_Sensor_V2_101020820/IMG/04.png" width="200"> | Grove - Multichannel Gas Sensor V2 | Gas Sensor | x | x |
 
 [SEN0487_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003985/dfrobot-fermion-mems-microphone-module-200x200.jpg
 [DFR0026_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products_2022/dfrobot-gravity-analog-ambient-light-sensor-1-6000lx-200x200.jpg
