@@ -83,7 +83,9 @@ void setup()
   micro.setup(32);
 #endif
   //  light.setup(32);
-  // dht.setup(14, DHTesp::DHT22);
+  #ifdef INCLUDE_TEMP_AND_HUMIDITY_SENSOR_SEN0137
+  dht.setup(14, DHTesp::DHT22);
+  #endif
   pinMode(LED_PIN, OUTPUT);
 
   WiFi.begin(ssid, password);
@@ -190,8 +192,8 @@ void loop()
 #ifdef INCLUDE_TEMP_AND_HUMIDITY_SENSOR_SEN0137
   TempAndHumidity meas = dht.getTempAndHumidity();
 
-  sendData(TEMP_AND_HUMIDITY_SENSOR_SEN0137_TYPE, TEMP_METRIC_TYPE, String(meas.temperature));
-  sendData(TEMP_AND_HUMIDITY_SENSOR_SEN0137_TYPE, HUMIDITY_METRIC_TYPE, String(meas.humidity));
+  sendData(TEMP_AND_HUMIDITY_SENSOR_SEN0137_TYPE, String(meas.temperature),TEMP_METRIC_TYPE);
+  sendData(TEMP_AND_HUMIDITY_SENSOR_SEN0137_TYPE, String(meas.humidity), HUMIDITY_METRIC_TYPE);
 
 #endif
 
