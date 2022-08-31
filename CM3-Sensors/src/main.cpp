@@ -167,9 +167,9 @@ void sendData(uint8_t type, String value, uint8_t metric=0)
   putMsg.concat(type);
   putMsg.concat(",\"metric\":");
   putMsg.concat(metric);
-  putMsg.concat("\", value\":");
+  putMsg.concat("\", \"value\":\"");
   putMsg.concat(value);
-  putMsg.concat("}");
+  putMsg.concat("\"}");
 
   Serial.println(putMsg);
 
