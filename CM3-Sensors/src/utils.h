@@ -16,9 +16,6 @@ see github.com/creatievemakers/HowToTalkToSensors
 #define TEMP_METRIC_TYPE 0
 #define HUMIDITY_METRIC_TYPE 1
 
-#define LIGHT_METRIC_TYPE 0
-
-#define HUMIDITY_METRIC_TYPE 0
 
 #define CH4_METRIC_TYPE 0
 #define C2H5OH_METRIC_TYPE 1
