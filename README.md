@@ -9,13 +9,13 @@
 
 | Type | --- | Sensor | Description | Amount | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 0 | ![SEN0394_IMG] | DFrobot SEN0394 | SGP40 air quality sensor | x | 0: Air Quality index (int) |
+| 0 | ![SEN0394_IMG] | DFrobot SEN0394 | [SGP40 air quality sensor](#air-quality-sensor) | x | 0: Air Quality index (int) |
 | 1 | ![SEN0487_IMG] | DFrobot SEN0487 | [MEMS Microphone](#mems-microphone) | x | 0: Sound Intensity (0-4096) |
 | 2 | ![SEN0137_IMG] | DFrobot SEN0137 | [DHT22 Digital temperature and humidity sensor](#digital-temperature-and-humidity-sensor) | x | 0: temp<br>1: humidity |
 | 3 |![DFR0026_IMG] | DFrobot DFR0026 | [Light Sensor](#ambient-light-sensor) | x | x |
-| 4 | ![SEN0440_IMG] | DFrobot SEN0440 | MEMS Gassensor - MiCS-5524  | x | 0:Methane (CH4) (1000 - 25000)PPM<br>1: Ethanol          (C2H5OH) (10   - 500)PPM<br>2: Hydrogen         (H2)     (1    - 1000)PPM<br> 3: Ammonia          (NH3)    (1    - 500)PPM<br> 4: Carbon Monoxide  (CO)     (1    - 1000)PPM |
+| 4 | ![SEN0440_IMG] | DFrobot SEN0440 | [MEMS Gassensor - MiCS-5524](#gas-sensor)  | x | 0:Methane (CH4) (1000 - 25000)PPM<br>1: Ethanol          (C2H5OH) (10   - 500)PPM<br>2: Hydrogen         (H2)     (1    - 1000)PPM<br> 3: Ammonia          (NH3)    (1    - 500)PPM<br> 4: Carbon Monoxide  (CO)     (1    - 1000)PPM |
 | 5 | ![AS7341_IMG] | DFrobot SEN0394 | [11-Channel color sensor]("11-channel-color-sensor) | x | x |
-| 6 | <img src="https://files.seeedstudio.com/wiki/Grove-Multichannel_Gas_Sensor/img/Grove-Multichannel_Gas_Sensor_V2_101020820/IMG/04.png" width="200"> | Grove - Multichannel Gas Sensor V2 | Gas Sensor | x | x |
+| 6 | <img src="https://files.seeedstudio.com/wiki/Grove-Multichannel_Gas_Sensor/img/Grove-Multichannel_Gas_Sensor_V2_101020820/IMG/04.png" width="200"> | Grove - [Multichannel Gas Sensor V2](#gas-sensor-seeed) | Gas Sensor | x | x |
 
 [SEN0487_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003985/dfrobot-fermion-mems-microphone-module-200x200.jpg
 [DFR0026_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products_2022/dfrobot-gravity-analog-ambient-light-sensor-1-6000lx-200x200.jpg
@@ -47,8 +47,22 @@ https://wiki.dfrobot.com/DFRobot_Ambient_Light_Sensor_SKU_DFR0026
 
 ### Digital temperature and humidity sensor
 
-https://wiki.dfrobot.com/DFRobot_Ambient_Light_Sensor_SKU_DFR0026
+https://wiki.dfrobot.com/DHT22_Temperature_and_humidity_module_SKU_SEN0137
 
 ### 11 Channel Color Sensor
 
 https://wiki.dfrobot.com/Gravity_AS7341_Visible_Light_Sensor_SKU_SEN0364
+
+### Air quality sensor
+
+https://wiki.dfrobot.com/Gravity_SGP40_Air_Quality_Sensor_SKU_SEN0394
+
+### Gas sensor
+
+https://wiki.dfrobot.com/Fermion__MEMS_Gas_Sensor___MiCS-5524_SKU_SEN0440
+
+### Gas sensor Seeed
+
+https://wiki.seeedstudio.com/Grove-Multichannel-Gas-Sensor-V2/
+
+
