@@ -65,4 +65,71 @@ https://wiki.dfrobot.com/Fermion__MEMS_Gas_Sensor___MiCS-5524_SKU_SEN0440
 
 https://wiki.seeedstudio.com/Grove-Multichannel-Gas-Sensor-V2/
 
+## Connecting to WiFi
+
+```cpp
+#include <Arduino.h>
+#include <WiFi.h>
+#include <HTTPClient.h>
+
+
+const char *ssid = "NETGEAR68";
+const char *password = "excitedtuba713";
+
+
+HTTPClient http;
+String mac;
+
+void setup()
+{
+  Serial.begin(115200);
+
+  pinMode(LED_PIN, OUTPUT);
+
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED)
+  {
+    digitalWrite(LED_PIN, HIGH);
+    delay(500);
+    Serial.println("Connecting to WiFi..");
+    digitalWrite(LED_PIN, LOW);
+    delay(500);
+  }
+
+  Serial.println("Connected to the WiFi network");
+
+  mac = WiFi.macAddress();
+}
+
+void sendData(uint8_t type, String value, uint8_t metric=0)
+{
+  http.begin(URL_API);
+  http.addHeader("Content-Type", "application/json");
+
+  String putMsg = "{\"mac\":\"";
+  putMsg.concat(mac);
+  putMsg.concat("\", \"type\":");
+  putMsg.concat(type);
+  putMsg.concat(",\"metric\":");
+  putMsg.concat(metric);
+  putMsg.concat(", \"value\":\"");
+  putMsg.concat(value);
+  putMsg.concat("\"}");
+
+  Serial.println(putMsg);
+
+  int httpResponseCode = http.PUT(putMsg);
+
+  http.end();
+}
+
+void loop()
+{
+
+  sendData(sensor_type, value, metric_type);
+
+  delay(30 * 1000);
+}
+
+```
 
