@@ -32,8 +32,9 @@
 
 | Prefifx-ID | --- | Platform | Description | Amount | Link |
 | --- | --- | --- | --- | --- | --- |
-|  | ![ESP32_IMG] | ESP32 WiFi en Bluetooth Board  | ESP32 | x |  |
+|  | ![ESP32_IMG] | ESP32 WiFi en Bluetooth Board  | ESP32 | 40 |  |
 |  | <img src="https://dramco.be/projects/dramco-uno/img/1-arduino-blink.gif" width="200"> | [Dramco uno](https://dramco.be/projects/dramco-uno/)  | - | x |  |
+|  |  | Raspberry Pi 4  |  | 1 |  |
 
 [ESP32_IMG]: https://www.tinytronics.nl/shop/image/cache/data/product-1443/esp32%20cp2102%20dev%20board%20v1%201-200x200.jpg
 
@@ -76,6 +77,41 @@ https://wiki.dfrobot.com/Capacitive_Soil_Moisture_Sensor_SKU_SEN0193
 ### Motion Sensor
 
 https://wiki.dfrobot.com/Digital_Infrared_motion_sensor__SKU_SEN0018_
+
+## Read an Analog Sensor
+
+```cpp
+#include <Arduino.h>
+
+#define ADC_PIN   8 // analog pin O-3.3V
+
+void setup() {
+  pinMode(ADC_PIN, INPUT);        // set the pin as input
+  Serial.begin(11520);           //  setup serial
+}
+
+void loop() {
+  uint16_t val = analogRead(ADC_PIN);  // read the input pin (12 bit)
+  Serial.println(val);          // debug value
+}
+```
+
+## Read a Digital Sensor
+``cpp
+#include <Arduino.h>
+
+#define DIGITAL_PIN   8 // digital pin O-3.3V
+
+void setup() {
+  pinMode(DIGITAL_PIN, INPUT);        // set the pin as input
+  Serial.begin(11520);           //  setup serial
+}
+
+void loop() {
+  uint8_t val = digitalRead(DIGITAL_PIN);  // val O or 1 or equivalent LOW or HIGH
+  Serial.println(val);          // debug value
+}
+```
 
 ## Connecting to WiFi
 
