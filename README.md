@@ -97,7 +97,7 @@ void loop() {
 ```
 
 ## Read a Digital Sensor
-``cpp
+```cpp
 #include <Arduino.h>
 
 #define DIGITAL_PIN   8 // digital pin O-3.3V
