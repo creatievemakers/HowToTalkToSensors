@@ -121,8 +121,8 @@ void loop() {
 #include <HTTPClient.h>
 
 
-const char *ssid = "NETGEAR68";
-const char *password = "excitedtuba713";
+const char *ssid = "iotd";
+const char *password = "ez8?!NUD";
 
 
 HTTPClient http;
