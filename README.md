@@ -19,6 +19,15 @@
 | 7 | ![SEN019_IMG] | DFrobot SEN0193 | [Soil Moisture Sensor]("soil-moisture-sensor) | 7 | 0: moisture level |
 | 8 | ![SEN0018_IMG] | DFrobot SEN0018 | [Motion Sensor]("motion-sensor) | 7 | Digital |
 
+Others (only 1):
+  - 001511 - BME280 Digital Barometer Pressure and Humidity Sensor Module						
+  - 003975 - DFRobot Fermion MAX30102 Heart Rate and Oximeter Sensor V2 						
+  - 003959 - DFRobot Gravity Analog Heart Rate Monitor Sensor - ECG Kit						
+  - 004111- DFRobot Gravity Digital Magnet Sensor						
+			
+
+
+
 [SEN0487_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003985/dfrobot-fermion-mems-microphone-module-200x200.jpg
 [DFR0026_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products_2022/dfrobot-gravity-analog-ambient-light-sensor-1-6000lx-200x200.jpg
 [SEN0137_IMG]: https://www.tinytronics.nl/shop/image/cache/catalog/products/product-003935/dfrobot-gravity-dht22-temperature-and-humidity-sensor-with-cable-front-200x200.jpg
