@@ -14,10 +14,10 @@
 | 2 | ![SEN0137_IMG] | DFrobot SEN0137 | [DHT22 Digital temperature and humidity sensor](#digital-temperature-and-humidity-sensor) | 7 | 0: temp<br>1: humidity |
 | 3 |![DFR0026_IMG] | DFrobot DFR0026 | [Light Sensor](#ambient-light-sensor) | 7| x |
 | 4 | ![SEN0440_IMG] | DFrobot SEN0440 | [MEMS Gassensor - MiCS-5524](#gas-sensor)  | 2 | 0:Methane (CH4) (1000 - 25000)PPM<br>1: Ethanol          (C2H5OH) (10   - 500)PPM<br>2: Hydrogen         (H2)     (1    - 1000)PPM<br> 3: Ammonia          (NH3)    (1    - 500)PPM<br> 4: Carbon Monoxide  (CO)     (1    - 1000)PPM |
-| 5 | ![AS7341_IMG] | DFrobot SEN0394 | [11-Channel color sensor]("11-channel-color-sensor) | 1 | x |
+| 5 | ![AS7341_IMG] | DFrobot SEN0394 | [11-Channel color sensor](#11-channel-color-sensor) | 1 | x |
 | 6 | <img src="https://files.seeedstudio.com/wiki/Grove-Multichannel_Gas_Sensor/img/Grove-Multichannel_Gas_Sensor_V2_101020820/IMG/04.png" width="200"> | Grove - [Multichannel Gas Sensor V2](#gas-sensor-seeed) | Gas Sensor | 1 | x |
-| 7 | ![SEN019_IMG] | DFrobot SEN0193 | [Soil Moisture Sensor]("soil-moisture-sensor) | 7 | 0: moisture level |
-| 8 | ![SEN0018_IMG] | DFrobot SEN0018 | [Motion Sensor]("motion-sensor) | 7 | Digital |
+| 7 | ![SEN019_IMG] | DFrobot SEN0193 | [Soil Moisture Sensor](#soil-moisture-sensor) | 7 | 0: moisture level |
+| 8 | ![SEN0018_IMG] | DFrobot SEN0018 | [Motion Sensor](#motion-sensor) | 7 | Digital |
 
 Others (only 1):
   - 001511 - BME280 Digital Barometer Pressure and Humidity Sensor Module						
