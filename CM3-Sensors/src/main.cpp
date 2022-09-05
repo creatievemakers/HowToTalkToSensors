@@ -4,8 +4,8 @@
 
 #include "utils.h"
 
-const char *ssid = "NETGEAR68";
-const char *password = "excitedtuba713";
+const char *ssid = "iotd";
+const char *password = "ez8?!NUD";
 
 /* define which sensors you want to use */
 // #define INCLUDE_GAS_SENSOR_SEN0040
