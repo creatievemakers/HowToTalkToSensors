@@ -96,7 +96,7 @@ https://wiki.dfrobot.com/Digital_Infrared_motion_sensor__SKU_SEN0018_
 
 void setup() {
   pinMode(ADC_PIN, INPUT);        // set the pin as input
-  Serial.begin(11520);           //  setup serial
+  Serial.begin(115200);           //  setup serial
 }
 
 void loop() {
@@ -113,7 +113,7 @@ void loop() {
 
 void setup() {
   pinMode(DIGITAL_PIN, INPUT);        // set the pin as input
-  Serial.begin(11520);           //  setup serial
+  Serial.begin(115200);           //  setup serial
 }
 
 void loop() {
